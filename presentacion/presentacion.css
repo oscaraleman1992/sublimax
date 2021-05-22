@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-family: initial;
+    color: red;
+    font-size: 80px;
+}
+
+body{
+    background-color: royalblue;
+}
+
+p{
+    font-size: 40px;
+    color: white;
+}
+
+.collapse{
+    margin-top: 0;
+}

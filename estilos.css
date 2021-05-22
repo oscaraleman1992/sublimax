@@ -1,0 +1,32 @@
+h1{
+    font-family:"pacifico,display";
+    color: crimson;
+   
+}
+i{
+    color:white;
+    font-size: 40px;
+
+}
+
+.carta{
+    border:5px solid red;
+}
+
+@media screen and (max-width:990px) {
+    form{
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width:575px) {
+    input{
+        width: 60%;
+      
+    }
+
+    button{
+       position:relative;
+
+       top: 5px;
+    }
+}
