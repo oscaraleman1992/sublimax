@@ -1,32 +1,92 @@
-h1{
-    font-family:"pacifico,display";
-    color: crimson;
-   
+.titulo{
+    width: 100%;
+    padding-top: 0%;
+    height: 25rem;;
 }
-i{
-    color:white;
-    font-size: 40px;
+.navegador{
+    background: linear-gradient(-90deg,#12d3b9,#dfee0d,#999275);
 
 }
+.fondo{
+    background:url(https://images6.alphacoders.com/335/thumb-1920-335979.png)
+}
+
+.carrusel{
+    width: 210px;
+    margin: auto;
+    perspective:1000px;
+    padding-top: 80px;
+    
+    
+
+}
+.carrusel-img{
+    width: 80%;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+    position: absolute;
+   
+    
+}
+.carrusel-img figure{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    
+   
+}
+.carrusel-img:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+
+}
+.carrusel-img figure:nth-child(1){transform: rotatey(0deg) translate(200px);}
+.carrusel-img figure:nth-child(2){transform: rotatey(45deg) translate(200px);}
+.carrusel-img figure:nth-child(3){transform: rotatey(90deg) translate(200px);}
+.carrusel-img figure:nth-child(4){transform: rotatey(135deg) translate(200px);}
+.carrusel-img figure:nth-child(5){transform: rotatey(180deg) translate(200px);}
+.carrusel-img figure:nth-child(6){transform: rotatey(225deg) translate(200px);}
+.carrusel-img figure:nth-child(7){transform: rotatey(270deg) translate(200px);}
+.carrusel-img figure:nth-child(8){transform: rotatey(315deg) translate(200px);}
+.carrusel-img figure:nth-child(9){transform: rotatey(360deg) translate(200px);}
+
+.carrusel-img img{
+    width: 100%;
+}
+
+@keyframes rotar{
+    from{
+        transform:rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+
+article{
+    margin-top: 350px;
+}
+
+
 
 .carta{
     border:5px solid red;
 }
 
-@media screen and (max-width:990px) {
-    form{
-        margin-left: 40%;
-    }
+
+
+footer{
+    background: linear-gradient(-90deg,#434645,#bbb9b0) ;
 }
-@media screen and (max-width:575px) {
-    input{
-        width: 60%;
-      
-    }
 
-    button{
-       position:relative;
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(2, 59, 59);
+    box-shadow: 0px 0px 8px 0px rgb(22, 21, 21);
+}
 
-       top: 5px;
-    }
+i{
+    color:white;
+    font-size: 40px;
+
 }

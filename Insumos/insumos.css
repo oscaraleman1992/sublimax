@@ -25,4 +25,4 @@ h1 {
   
   @keyframes traslacion {
     0%   {color: #ebdfdf; left:0px; top:0px;}
-    100% {color: rgb(245, 10, 10); left:500px; top:0px;} }
+    100% {color: rgb(245, 10, 10); left:30vh ; top:0px;} }

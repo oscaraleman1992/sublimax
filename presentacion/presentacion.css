@@ -3,6 +3,7 @@ h1{
     font-family: initial;
     color: red;
     font-size: 80px;
+    text-decoration: underline;
 }
 
 body{
