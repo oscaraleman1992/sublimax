@@ -1,15 +1,32 @@
-
+.cuerpo{
+    background-image: linear-gradient(#ff00cc, #333399,#ff00cb) ;
+}
+h1{
+    text-align: center;
+}
+.contenedor{
+    box-shadow:10px gray;
+}
 
 iframe{
-    width:200vh;
-    height: 100vh;
-    position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    margin:auto;
+    width: 200vh;
+    height: 60vh;
+
     
-
-
+ 
+}
+.direccion{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(207, 232, 252);
+}
+.telefono{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(207, 232, 252);
+}
+.email{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(207, 232, 252);
 }

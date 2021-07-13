@@ -1,28 +1,42 @@
 nav{
-  height: 60px;
+  height: 80px;
+  background: linear-gradient(-80deg ,rgb(149, 221, 14),rgb(135, 224, 190),white);
 }
 
-.borde{
- border: 2px solid red;
- border-bottom: none;
-}
-
-.bordes{
-  border: 3px solid blue;
-  border-top: 3px solid blue ;
-}
-.tamaño{
-  font-size: 20px;
-}
 h1 {
-    font-family: italic;
-    font-size: 50px;
+    font-family:cursive;
+    font-size: 120px;
+    text-decoration: underline;
     position: relative;
     animation-name:traslacion;
     animation-duration: 6s ;
     animation-fill-mode: forwards;
   }
+  @media screen and (max-width: 3000px){
+
+    @keyframes traslacion {
+      0%   {color: #ebdfdf; left:0px; top:10px;}
+      100% {color: rgb(250, 2, 2); left:70vh ; top:10px;} }
+  }
+  @media screen and (max-width: 970px){
+
+    @keyframes traslacion {
+      0%   {color: #ebdfdf; left:0px; top:10px;}
+      100% {color: rgb(250, 2, 2); left:30vh ; top:10px;} }
+  }
+  @media screen and (max-width: 795px){
+
+    @keyframes traslacion {
+      0%   {color: #ebdfdf; left:0px; top:10px;}
+      100% {color: rgb(250, 2, 2); left:20vh ; top:10px;} }
+  }
+  @media screen and (max-width: 525px){
+    @keyframes traslacion {
+      0%   {font-size:30px;color: #ebdfdf; left:0px; top:10px;}
+      100% {font-size:30px;color: rgb(250, 2, 2); left:4vh ; top:20px;} }
+  }
   
-  @keyframes traslacion {
-    0%   {color: #ebdfdf; left:0px; top:0px;}
-    100% {color: rgb(245, 10, 10); left:30vh ; top:0px;} }
+
+ article{
+   background:rgb(73, 169, 224) ;
+ }   

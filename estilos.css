@@ -33,14 +33,8 @@
     height: 100%;
     position: absolute;
     
-    
-   
 }
-.carrusel-img:hover{
-    animation-play-state: paused;
-    cursor: pointer;
 
-}
 .carrusel-img figure:nth-child(1){transform: rotatey(0deg) translate(200px);}
 .carrusel-img figure:nth-child(2){transform: rotatey(45deg) translate(200px);}
 .carrusel-img figure:nth-child(3){transform: rotatey(90deg) translate(200px);}
