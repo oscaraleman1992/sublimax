@@ -1,9 +1,24 @@
 
 img{
     width:100%;
-    margin:0%;
-    padding-top: 0%;
     position: absolute;
-  
+    height:auto;
 }
 
+@media screen and (max-width: 835px){
+    img{
+        max-width: 100%;
+       min-height:100%;
+       
+       position: absolute;
+    }
+}
+
+@media screen and (max-width: 520px){
+    img{
+       min-width:100%;
+       min-height:100%;
+      position: absolute;
+     
+    }
+}

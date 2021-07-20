@@ -1,11 +1,12 @@
 body{
-    background-image:url("hola.jpg.jpg");
+    background-image:url(../imagenes/colores.jpg);
 }
 
 h1 { 
     font-size:3em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: hsl(165, 95%, 47%);
+    color: hsl(214, 96%, 35%);
+    font-weight: bold;
     text-align: center;
     text-decoration-line: underline;
     
@@ -36,7 +37,8 @@ label{
 input:focus{
 background-color: orange;
 color: white;
-padding:10px;
+padding:7px;
+width: 200px; ;
 font-size:30px;
 
 }

@@ -2,7 +2,9 @@
     background-image: linear-gradient(#ff00cc, #333399,#ff00cb) ;
 }
 h1{
+    font-family: 'Festivo', cursiva;
     text-align: center;
+   padding-top: 20px;
 }
 .contenedor{
     box-shadow:10px gray;

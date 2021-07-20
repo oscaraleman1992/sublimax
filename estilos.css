@@ -1,7 +1,7 @@
 .titulo{
     width: 100%;
     padding-top: 0%;
-    height: 25rem;;
+    height: 30rem;;
 }
 .navegador{
     background: linear-gradient(-90deg,#12d3b9,#dfee0d,#999275);
@@ -57,11 +57,19 @@
     }
 }
 
+figure img{
+    transition: 0.5s;
+}
+figure img:hover{
+    transform: scale(1.2);
+}
 article{
     margin-top: 350px;
 }
 
-
+.cartas{
+    background: linear-gradient(-90deg,#12d3b9,#dfee0d,#999275);
+}
 
 .carta{
     border:5px solid red;
@@ -78,9 +86,16 @@ h4{
     color: rgb(2, 59, 59);
     box-shadow: 0px 0px 8px 0px rgb(22, 21, 21);
 }
-
-i{
-    color:white;
+.direccion{
+    font-family: fantasy;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.redes{
+    font-size: 30px;
+}
+.wsp{
+    color: rgb(0, 255, 21);
     font-size: 40px;
-
 }

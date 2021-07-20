@@ -4,9 +4,9 @@ nav{
 }
 
 h1 {
-    font-family:cursive;
-    font-size: 120px;
-    text-decoration: underline;
+   font-family: 'Justo', cursiva;
+    font-size: 180px;
+    font-weight: bold;
     position: relative;
     animation-name:traslacion;
     animation-duration: 6s ;
@@ -16,27 +16,41 @@ h1 {
 
     @keyframes traslacion {
       0%   {color: #ebdfdf; left:0px; top:10px;}
-      100% {color: rgb(250, 2, 2); left:70vh ; top:10px;} }
+      100% {color: rgb(57, 4, 100); left:80vh ; top:10px;} }
   }
   @media screen and (max-width: 970px){
 
     @keyframes traslacion {
       0%   {color: #ebdfdf; left:0px; top:10px;}
-      100% {color: rgb(250, 2, 2); left:30vh ; top:10px;} }
+      100% {color: rgb(57, 4, 100); left:30vh ; top:10px;} }
   }
   @media screen and (max-width: 795px){
 
     @keyframes traslacion {
       0%   {color: #ebdfdf; left:0px; top:10px;}
-      100% {color: rgb(250, 2, 2); left:20vh ; top:10px;} }
+      100% {color: rgb(57, 4, 100); left:20vh ; top:10px;} }
   }
   @media screen and (max-width: 525px){
     @keyframes traslacion {
       0%   {font-size:30px;color: #ebdfdf; left:0px; top:10px;}
-      100% {font-size:30px;color: rgb(250, 2, 2); left:4vh ; top:20px;} }
+      100% {font-size:30px;color: rgb(57, 4, 100); left:4vh ; top:20px;} }
   }
   
 
  article{
    background:rgb(73, 169, 224) ;
- }   
+ } 
+ img{
+   transition: 0.5s;
+ }  
+ img:hover{
+   transform: scale(1.1);
+
+ }
+h5{
+  color: rgb(250, 234, 7);
+}
+ p{
+   color: rgb(2, 6, 70);
+   
+ }
