@@ -1,53 +1,84 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
+	<html lang="es"></html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contacto</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="estilo.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<nav class="navbar navbar-expand-lg bg-info navbar-light navegador">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="../index.html"><img class="logo" src="../imagenes/sublimax.png" width="120" height="90"
+					alt=""></a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon "></span>
+			</button>
+			<div class="collapse navbar-collapse text-center" id="navbarToggleExternalContent">
+				<ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll">
+					<li class="nav-item active">
+					<li class="nav-item">
+						<a class="nav-link text-light" href="../Insumos/insumos.html">Insumos</a>
+					</li>
+					<a class="nav-link text-light" href="../localidad/localidad.html">Ubicacion
+						<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" href="../formulario/index.html">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" href="../presentacion/presentacion.html">¿Quienes Somos?</a>
+					</li>
+	
+				</ul>
+	
+	
+	
+			</div>
+		</div>
+	</nav>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    
-    <title>Formulario</title>
-</head>
+	<body>
 
-<body>
-   
-    <h1>Registrarse</h1>
-    
-    <form action="">
-        <fieldset class="formulario">
-           
-            <div>
-                
-                <label for="nombre">Nombre</label>
-                <input type="text">
-                <label for="apellido">Apellido</label>
-                <input type="text">
-                <label for="dni">DNI</label>
-                <input type="number">
-                <label for="direccion">Direccion</label>
-                <input type="">
-                <label for="codigo postal">Codigo Postal</label>
-                <input type="number">
-                <label for="contraseña">Contraseña</label>
-                <input type="password">
-                <br><br>
-                <button type="submit" onclick="clickear()">Enviar
-                </button>
+		<div class="wrapper">
+			<div class="inner mt-5">
+				<form  method="post" action="https://usebasin.com/f/e479793ebac4">
+					<h3>Contacto</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+					<label class="form-group">
+						<input type="text" name="nombre" class="form-control"  required>
+						<span>Nombre Y Apellido</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" name="email" class="form-control"  required>
+						<span for="">Email</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group" >
+						<textarea name="mensaje" id="" class="form-control" required></textarea>
+						<span for="">Mensaje</span>
+						<span class="border"></span>
+					</label>
+					<button>Enviar
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    	<script src="js/bootstrap.min.js"></script>
 
-
-               
-            </div>
-
-        </fieldset>
-
-
-
-
-
-
-    </form>
-<script src="estilo.js"></script>
-</body>
-
+	</body>
 </html>

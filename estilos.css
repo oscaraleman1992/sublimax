@@ -1,8 +1,17 @@
-.titulo{
+/*.titulo{
     width: 100%;
     padding-top: 0%;
     height: 30rem;;
-}
+}*/
+.logo{
+    transition: 0.5s;
+  }  
+  .logo:hover{
+    transform: scale(1.1);
+ 
+  }
+
+
 .navegador{
     background: linear-gradient(-90deg,#12d3b9,#dfee0d,#999275);
 
@@ -88,12 +97,13 @@ h4{
 }
 .direccion{
     font-family: fantasy;
-    color: rgb(255, 0, 0);
-    font-weight: bolder;
+    color: rgb(76, 0, 255);
+    
     font-size: 25px;
 }
 .redes{
     font-size: 30px;
+    
 }
 .wsp{
     color: rgb(0, 255, 21);

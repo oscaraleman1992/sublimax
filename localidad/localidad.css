@@ -1,3 +1,18 @@
+
+nav{
+  
+    background: linear-gradient(-80deg ,rgb(107, 2, 60),rgb(40, 77, 158),rgb(23, 2, 82));
+    
+  }
+  .logo{
+    transition: 0.5s;
+  }  
+  .logo:hover{
+    transform: scale(1.1);
+ 
+  }
+
+
 .cuerpo{
     background-image: linear-gradient(#ff00cc, #333399,#ff00cb) ;
 }
@@ -5,6 +20,8 @@ h1{
     font-family: 'Festivo', cursiva;
     text-align: center;
    padding-top: 20px;
+   color: rgb(5, 255, 201);
+   font-weight: bold;
 }
 .contenedor{
     box-shadow:10px gray;
@@ -16,6 +33,9 @@ iframe{
 
     
  
+}
+.icono{
+    color: rgb(5, 255, 201);
 }
 .direccion{
     font-size: 20px;

@@ -1,24 +1,47 @@
 
-img{
-    width:100%;
-    position: absolute;
-    height:auto;
+.navegador{
+    background: linear-gradient(-90deg,#7e014e,#c27ae4,#7104ee);
+   
 }
 
-@media screen and (max-width: 835px){
-    img{
-        max-width: 100%;
-       min-height:100%;
-       
-       position: absolute;
-    }
+    .logo{
+    transition: 0.5s;
+  }  
+    .logo:hover{
+    transform: scale(1.1);
+ 
+  }
+
+  .fondo{
+    background-image: url(../imagenes/fondo.jpg);
+  }
+
+.camino{
+  text-align: center;
+  padding-top: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(3, 83, 83);
+  
 }
 
-@media screen and (max-width: 520px){
-    img{
-       min-width:100%;
-       min-height:100%;
-      position: absolute;
-     
-    }
+.parrafo{
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(4, 5, 99);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
 }
+
+.imagen{
+  width: 140px;
+  height: 120px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  
+  ;
+}
+
+

@@ -1,58 +1,12 @@
-body{
-    background-image:url(../imagenes/colores.jpg);
-}
 
-h1 { 
-    font-size:3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: hsl(214, 96%, 35%);
-    font-weight: bold;
-    text-align: center;
-    text-decoration-line: underline;
-    
-}
+.logo{
+    transition: 0.5s;
+  }  
+.logo:hover{
+    transform: scale(1.1);
+ 
+  }
 
-
-.formulario{
-    height: 800px;
-    
-}
-
-div {
-    text-align: center;
-    margin-top: 80px;
-    padding: 30px;
-}
-
-
-
-
-label{
-    display:block;
-    padding: 20px;
-    font-size: 2em;
-}
-
-
-input:focus{
-background-color: orange;
-color: white;
-padding:7px;
-width: 200px; ;
-font-size:30px;
-
-}
-
-button{
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #0fe9d3;
-    width: 160px;
-    box-shadow: 0px 0px 20px 0px black;
-
-}
-
-button:hover{
-    color: white;
-    cursor: pointer;
-}
+  nav{
+    background: linear-gradient(-80deg ,rgb(107, 2, 60),rgb(40, 77, 158),rgb(23, 2, 82));
+  }

@@ -1,18 +1,20 @@
 nav{
-  height: 80px;
+  
   background: linear-gradient(-80deg ,rgb(149, 221, 14),rgb(135, 224, 190),white);
+  
 }
 
 h1 {
    font-family: 'Justo', cursiva;
-    font-size: 180px;
+    font-size: 250px;
     font-weight: bold;
-    position: relative;
-    animation-name:traslacion;
-    animation-duration: 6s ;
-    animation-fill-mode: forwards;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow:2px 2px 2px rgb(66, 58, 56);
+    color: rgb(197, 45, 7);
+    
   }
-  @media screen and (max-width: 3000px){
+/* @media screen and (max-width: 3000px){
 
     @keyframes traslacion {
       0%   {color: #ebdfdf; left:0px; top:10px;}
@@ -32,13 +34,14 @@ h1 {
   }
   @media screen and (max-width: 525px){
     @keyframes traslacion {
-      0%   {font-size:30px;color: #ebdfdf; left:0px; top:10px;}
-      100% {font-size:30px;color: rgb(57, 4, 100); left:4vh ; top:20px;} }
+      0%   {font-size:30px;color: #ebdfdf; left:0px; top:0px;}
+      100% {font-size:30px;color: rgb(57, 4, 100); left:4vh ; top:0px;} }
   }
-  
+  */
 
- article{
+ .cuerpo{
    background:rgb(73, 169, 224) ;
+   
  } 
  img{
    transition: 0.5s;
@@ -54,3 +57,6 @@ h5{
    color: rgb(2, 6, 70);
    
  }
+
+   
+ 
